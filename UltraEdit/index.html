@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 7</title>
+    <style>
+        body{
+            margin-top: 20px;
+        }
+        .logo img{
+            width: 164px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: "Segoe UI";
+        }
+        .right ul{
+            display: flex;
+            gap: 34px;
+        }
+        .right ul li{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .right ul li spna{
+            padding: 0 5px;
+        }
+        .main{
+            margin: 80px;
+        }
+        .heading{
+            font-size: 48px;
+            margin-left: 270px;
+            font-family: "Segoe UI";
+        }
+        .heading img{
+            padding-left: 10px;
+        }
+        .content{
+            margin-left: 230px;
+            margin-top: 35px;
+            font-size: 25px;
+            font-family: "Segoe UI";
+        }
+        .content p{
+            margin-top: 0px;
+            margin-left: 320px;
+        }
+        .main button{
+            font-family: "Segoe UI";
+            background-color: #00b6d1;
+            color: white;
+            height: 50px;
+            width: 300px;
+            border-radius: 8px;
+            border: none;
+            margin-left: 540px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        .main button:hover{
+            background-color: #02a3bc;
+            transition: 0.3;
+        }
+        .credit{
+            display: flex;
+            margin-left: 270px;
+        }
+        .credit .span1{
+            font-size: 25px;
+            font-family: "Segoe UI";
+        }
+        .credit .span2{
+            font-family: "Segoe UI";
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+        .card-info{
+            margin-top: 50px;
+            margin-left: 300px;
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            grid-template-rows: 160px 160px 160px 160px;
+            gap: 30px;
+        }
+        .card1{
+            height: 160px;
+            width: 300px;
+            background-color: rgb(247, 247, 247);
+            /* margin-top: 50px;
+            margin-left: 290px; */
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        .card2{
+            height: 160px;
+            width: 300px;
+            background-color: rgb(247, 247, 247);
+            /* margin-top: 50px;
+            margin-left: 290px; */
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+        .card3{
+            height: 160px;
+            width: 300px;
+            background-color: rgb(247, 247, 247);
+            /* margin-top: 50px;
+            margin-left: 290px; */
+            grid-column: 3/4;
+            grid-row: 1/2;
+        }
+        .card4{
+            height: 160px;
+            width: 300px;
+            background-color: rgb(247, 247, 247);
+            /* margin-top: 50px;
+            margin-left: 290px; */
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .card5{
+            height: 160px;
+            width: 300px;
+            background-color: rgb(247, 247, 247);
+            /* margin-top: 50px;
+            margin-left: 290px; */
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .card6{
+            height: 160px;
+            width: 300px;
+            background-color: rgb(247, 247, 247);
+            /* margin-top: 50px;
+            margin-left: 290px; */
+            grid-column: 3/4;
+            grid-row: 2/3;
+        }
+        .card7{
+            height: 160px;
+            width: 300px;
+            background-color: rgb(247, 247, 247);
+            /* margin-top: 50px;
+            margin-left: 290px; */
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        .card8{
+            height: 160px;
+            width: 300px;
+            background-color: rgb(247, 247, 247);
+            /* margin-top: 50px;
+            margin-left: 290px; */
+            grid-column: 2/3;
+            grid-row: 3/4;
+        }
+        .card9{
+            height: 160px;
+            width: 300px;
+            background-color: rgb(247, 247, 247);
+            /* margin-top: 50px;
+            margin-left: 290px; */
+            grid-column: 3/4;
+            grid-row: 3/4;
+        }
+        .card10{
+            height: 160px;
+            width: 300px;
+            background-color: rgb(247, 247, 247);
+            /* margin-top: 50px;
+            margin-left: 290px; */
+            grid-column: 1/2;
+            grid-row: 4/5;
+        }
+        .card1 .english, .card2 .deutsch, .card3 .italiano, .card4 .español, .card5 .français, .card6 .portuguese, .card7 .japanese, .card8 .korean, .card9 .chinese, .card10 .tc{
+            font-family: "Segoe UI";
+            font-weight: bold;
+            padding-top: 20px;
+            margin-left: 110px;
+            font-size: 22px;
+        }
+        .card1 .btn1, .card2 .btn1, .card3 .btn1, .card4 .btn1, .card5 .btn1, .card6 .btn1, .card7 .btn1, .card8 .btn1, .card9 .btn1, .card10 .btn1{
+            width: 120px;
+            height: 40px;
+            margin-left: 25px;
+            margin-top: 48px;
+            border: none;
+            background-color: #00b6d1;
+            border-radius: 5px;
+            font-family: "Segoe UI";
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .card1 .btn1:hover, .card2 .btn1:hover, .card3 .btn1:hover, .card4 .btn1:hover, .card5 .btn1:hover, .card6 .btn1:hover, .card7 .btn1:hover, .card8 .btn1:hover, .card9 .btn1:hover, .card10 .btn1:hover{
+            background-color: #02a3bc;
+            transition: 0.5;
+        }
+        .card1 .btn2, .card2 .btn2, .card3 .btn2, .card4 .btn2, .card5 .btn2, .card6 .btn2, .card7 .btn2, .card8 .btn2, .card9 .btn2, .card10 .btn2{
+            width: 120px;
+            height: 40px;
+            margin-left: 8px;
+            margin-top: 48px;
+            border: none;
+            background-color: #00d084;
+            border-radius: 5px;
+            font-family: "Segoe UI";
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .card1 .btn2:hover, .card2 .btn2:hover, .card3 .btn2:hover, .card4 .btn2:hover, .card5 .btn2:hover, .card6 .btn2:hover, .card7 .btn2:hover, .card8 .btn2:hover, .card9 .btn2:hover, .card10 .btn2:hover{
+            background-color: #02df8e;
+            transition: 0.5;
+        }
+        .card1 a, .card2 a, .card3 a, .card4 a, .card5 a, .card6 a, .card7 a, .card8 a, .card9 a, .card10 a{
+            height: 10px;
+            width: 10px;
+            color: white;
+        }
+        .black{
+            background-color: black;
+            max-width: 100%;
+            height: 500px;
+            margin-top: 50px;
+        }
+        @media screen and (max-width: 1145px) {
+            .card-info{
+            margin-top: 50px;
+            margin-left: 300px;
+            display: grid;
+            grid-template-columns: 300px;
+            /* grid-template-rows: 160px 160px 160px 160px; */
+            gap: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><span>Products</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </li>
+                    <li><span>Pricing </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </li>
+                    <li><span>Resources </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </li>
+                    <li><span>About Us </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </li>
+                    <li>
+                        <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt=""></div>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main">
+            <div class="heading">
+                Download <b>UltraEdit</b> for Windows
+                <img src="Reviews.png"> 
+            </div>
+            <div class="content">Download and try UltraEdit before you buy it! This download includes the full Windows <p>version of the text editor.</p></div>
+            <button><b>DOWNLOAD MAC OR LINUX VERSION</b></button>
+        </div>
+        <div class="credit">
+            <div class="image">
+                <img src="ultraedit.png" width="100px" height="50px">
+            </div>
+            <div class="span1">Download UltraEdit</div>
+            <div class="span2">v2023.2(released 12/15/2023) | Hotfix</div>
+        </div>
+        <div class="card-info">
+            <div class="card1">
+                <div class="english">English</div>
+                <a href="english_32.exe">
+                    <button class="btn1">Download 32-bit</button>
+                </a>
+                <a href="ue_english_64.exe">
+                    <button class="btn2">Download 64-bit</button>
+                </a>
+            </div>
+            <div class="card2">
+                <div class="deutsch">Deutsch</div>
+                <a href="english_32.exe">
+                    <button class="btn1">Download 32-bit</button>
+                </a>
+                <a href="ue_english_64.exe">
+                    <button class="btn2">Download 64-bit</button>
+                </a>
+            </div>
+            <div class="card3">
+                <div class="italiano">Italiano</div>
+                <a href="english_32.exe">
+                    <button class="btn1">Download 32-bit</button>
+                </a>
+                <a href="ue_english_64.exe">
+                    <button class="btn2">Download 64-bit</button>
+                </a>
+            </div>
+            <div class="card4">
+                <div class="español">Español</div>
+                <a href="english_32.exe">
+                    <button class="btn1">Download 32-bit</button>
+                </a>
+                <a href="ue_english_64.exe">
+                    <button class="btn2">Download 64-bit</button>
+                </a>
+            </div>
+            <div class="card5">
+                <div class="français">français</div>
+                <a href="english_32.exe">
+                    <button class="btn1">Download 32-bit</button>
+                </a>
+                <a href="ue_english_64.exe">
+                    <button class="btn2">Download 64-bit</button>
+                </a>
+            </div>
+            <div class="card6">
+                <div class="portuguese">Português</div>
+                <a href="english_32.exe">
+                    <button class="btn1">Download 32-bit</button>
+                </a>
+                <a href="ue_english_64.exe">
+                    <button class="btn2">Download 64-bit</button>
+                </a>
+            </div>
+            <div class="card7">
+                <div class="japanese">日本</div>
+                <a href="english_32.exe">
+                    <button class="btn1">Download 32-bit</button>
+                </a>
+                <a href="ue_english_64.exe">
+                    <button class="btn2">Download 64-bit</button>
+                </a>
+            </div>
+            <div class="card8">
+                <div class="korean">한국어</div>
+                <a href="english_32.exe">
+                    <button class="btn1">Download 32-bit</button>
+                </a>
+                <a href="ue_english_64.exe">
+                    <button class="btn2">Download 64-bit</button>
+                </a>
+            </div>
+            <div class="card9">
+                <div class="chinese">中国</div>
+                <a href="english_32.exe">
+                    <button class="btn1">Download 32-bit</button>
+                </a>
+                <a href="ue_english_64.exe">
+                    <button class="btn2">Download 64-bit</button>
+                </a>
+            </div>
+            <div class="card10">
+                <div class="tc">中國</div>
+                <a href="english_32.exe">
+                    <button class="btn1">Download 32-bit</button>
+                </a>
+                <a href="ue_english_64.exe">
+                    <button class="btn2">Download 64-bit</button>
+                </a>
+            </div>
+        </div>
+        <div class="black"></div>
+    </header>
+</body>
+</html> 
