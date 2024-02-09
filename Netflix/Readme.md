@@ -1,1 +1,6 @@
 
+**NETFLIX CLONE**
+
+TECH STACK:
+  -HTML
+  -CSS
