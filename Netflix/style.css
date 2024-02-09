@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assests/images/background.jpg);
+    height: 700px;
+    background-position: 50% 710%;
+    background-size: 122%;
+    position: relative;
+}
+.main .box{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 400px;
+    width: 75vw;
+    margin: auto;
+    height: 8vh;
+    padding-top: 12px;
+}
+nav span img{
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+}
+nav button{
+    position: relative;
+    z-index: 1;
+}
+.content{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 22px;
+    padding: 23px;
+}
+.content> :nth-child(1){
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    font-weight: bolder;
+}
+.content> :nth-child(2){
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+.content> :nth-child(3){
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.seperation{
+    height: 7px;
+    background-color: rgb(35 35 35);
+}
+.btn{
+    background-color: white;
+    padding: 3px 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-btn{
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+}
+.eng{
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    display: flex;
+    gap: 8px;
+    border-color: white;
+    border: 1px solid rgba(251, 248, 248, 0.4);
+    border-radius: 5px;
+    padding: 7px 10px 0px 3px;
+    font-size: 14px;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.btn-red:hover{
+    transition: all 0.3s ease-out;
+    background-color: rgb(215, 3, 3);
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-red-sm:hover{
+    transition: all 0.3s ease-out;
+    background-color: rgb(215, 3, 3);
+}
+.btn-input{
+    padding: 21px 200px 13px 15px;
+    border-radius: 5px;
+    border-style: groove;
+    font-size: 16px;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: auto;
+    max-width: 80vw;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.secText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 800px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.secText :nth-child(1){
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    font-weight: bolder;
+}
+.secText :nth-child(2){
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+}
+.secImg video{
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    width: 32vw;
+}
+.tasset video{
+    position: absolute;
+    top: 6px;
+    right: 110px;
+    width: 380px;
+    height: 300px;
+}
+.question{
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.faq{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    font-weight: bolder;
+    margin-left: 400px;
+}
+.faq-box{
+    display: flex;
+    width: 75vw;
+    height: 85px;
+    background-color: rgb(45, 45, 45);
+    margin: auto;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faq-box:hover{
+    transition: all 0.3s ease-out;
+    background-color: rgb(65, 65, 65);
+}
+.one{
+    margin-top: 10px;
+}
+.sampletext{
+    color: white;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 48px;
+    font-family: 'Open Sans', sans-serif;
+    width: 45vw;
+}
+.second{
+    margin: auto;
+    width: 610px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.firstline{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 60px;
+    width: 30vw;
+    margin-left: 200px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.footer-grid{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.ft-btn{
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.last-text{
+    margin-top: 25px;
+    margin-left: 200px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 100px;
+}
