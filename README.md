@@ -1,5 +1,3 @@
-# Projects
-I have Created some Basic projects like Website Clones etc. These projects are beginner friendly and Technology stack which I used is HTML and CSS..
 
 <div class="challenge-body-html"><div class="challenge_problem_statement"><div class="msB challenge_problem_statement_body"><div class="hackdown-content"><svg style="display: none;"><defs id="MathJax_SVG_glyphs"></defs></svg><p>Welcome to the world of Java! In this challenge, we practice printing to stdout.</p>
 
