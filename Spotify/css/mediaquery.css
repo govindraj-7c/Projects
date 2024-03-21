@@ -1,0 +1,137 @@
+@media (max-width: 1003px) {
+    .left {
+        position: absolute;
+        z-index: 10;
+        background-color: black;
+        left: -100%;
+        width: 40%;
+        transition: all 0.3s;
+    }
+
+    .library {
+        height: 86%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right-middle {
+        height: 87%;
+    }
+
+    .playlist-box {
+        height: 93%;
+    }
+
+    .arrows{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .cross{
+        display: block;
+    }
+
+    .seekbar{
+        bottom: 14px;
+    }
+    .music-control{
+        justify-content: center;
+        gap: 180px;
+    }
+    .card{
+        width: 298px;
+        height: 328px;
+    }
+    .playlist-box{
+        gap: 4px;
+        margin-left: 6px;
+        padding-top: 32px
+    }
+}
+
+@media (max-width: 431px) {
+    .container {
+        width: 121vw;
+        height: 121vh;
+    }
+
+    .left {
+        height: 92%;
+        width: 98%;
+        transition: all 0.5s;
+    }
+
+    .playSong {
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 90%;
+        height: 54%;
+    }
+
+    .card img {
+        padding: 22px 10px 0px 23px;
+    }
+
+    .playlist-des {
+        font-size: 12px;
+        margin: 3px 4px 2px 24px;
+    }
+
+    .playlist-name {
+        margin: 7px 4px 2px 24px;
+    }
+
+    .songName {
+        width: 163px;
+        font-size: 12px;
+    }
+
+    .sound-time {
+        font-size: 12px;
+        gap: 0px;
+    }
+
+    .seekbar {
+        bottom: 18px;
+        left: 29px;
+    }
+
+    .arrows{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+    .cross{
+        display: block;
+    }
+    #changevolume{
+        width: 60px;
+    }
+    .music-control{
+        justify-content: center;
+        gap: 20px;
+    }
+    .spotifyPlay{
+        height: 86px;
+        left: 155px;
+        bottom: 60px;
+    }
+    .playlist-box {
+        gap: 4px;
+        margin-left: 20px;
+        padding-top: 8px;
+        padding-bottom: 15px;
+    }
+    .library {
+        height: 84%;
+    }
+}

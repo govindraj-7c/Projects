@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/utility.css">
+<link rel="stylesheet" href="css/mediaquery.css">
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="home">
+                <div class="spotify-logo flex">
+                    <img class="invert" src="img/logo.svg" alt="" width="100px">
+                    <img class="invert cross" src="img/cross.svg" alt="" width="30px" height="30px">
+                </div>
+                <div class="home-logo">
+                    <img class=" pointer invert img-size" src="img/home.svg" alt="" width="20px" height="20px">
+                    Home
+                </div>
+                <div class="search-logo">
+                    <img class="pointer invert img-size" src="img/search.svg" alt="" width="20px" height="20px">
+                    Search
+                </div>
+            </div>
+            <div class="library">
+                <div class="lab-upper flex">
+                    <div class="lab-logo">
+                        <img class="invert" src="img/library.svg" alt="" width="30px" height="30px">
+                        Your Library
+                    </div>
+                    <div class="lab-plus pointer"><svg class="invert" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                            <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        </svg>
+                    </div>
+                </div>
+                <div class="lab-mid">
+                    <div class="songlist">
+
+                    </div>
+                </div>
+                <div class="lab-lower">
+                    <div>
+                        <span>Legal</span><span>Safety & Privacy Center</span><span>Privacy Policy</span>
+                    </div>
+                    <div>
+                        <span>Cookies</span><span>About Ads</span><span>Accessibility</span>
+                    </div>
+                    <div>
+                        <span>Cookies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-upper flex">
+                <span>
+                    <img class="hamburger invert" src="img/hamburger.svg" alt="" width="30px" height="30px">
+                    <svg class="arrows invert pointer" width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M14.2893 5.70708C13.8988 5.31655 13.2657 5.31655 12.8751 5.70708L7.98768 10.5993C7.20729 11.3805 7.2076 12.6463 7.98837 13.427L12.8787 18.3174C13.2693 18.7079 13.9024 18.7079 14.293 18.3174C14.6835 17.9269 14.6835 17.2937 14.293 16.9032L10.1073 12.7175C9.71678 12.327 9.71678 11.6939 10.1073 11.3033L14.2893 7.12129C14.6799 6.73077 14.6799 6.0976 14.2893 5.70708Z"
+                                fill="#0F0F0F"></path>
+                        </g>
+                    </svg>
+                    <svg class="arrows invert pointer" width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" transform="matrix(-1, 0, 0, 1, 0, 0)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M14.2893 5.70708C13.8988 5.31655 13.2657 5.31655 12.8751 5.70708L7.98768 10.5993C7.20729 11.3805 7.2076 12.6463 7.98837 13.427L12.8787 18.3174C13.2693 18.7079 13.9024 18.7079 14.293 18.3174C14.6835 17.9269 14.6835 17.2937 14.293 16.9032L10.1073 12.7175C9.71678 12.327 9.71678 11.6939 10.1073 11.3033L14.2893 7.12129C14.6799 6.73077 14.6799 6.0976 14.2893 5.70708Z"
+                                fill="#0F0F0F"></path>
+                        </g>
+                    </svg>
+                </span>
+                <div class="login-btn">
+                    <span class="signin pointer">Sign up</span>
+                    <button class="login pointer">Log in</button>
+                </div>
+            </div>
+            <div class="right-middle">
+                <div class="playName">Spotify PlayLists</div>
+                <div class="playlist-box flex">
+                    <!-- <div data-folder="ncs" class="card">
+                        <img src="songImg.jpeg" alt="">
+                        <img class="spotifyPlay" src="spotify-play.svg" alt="">
+                        <div class="playlist-name">Feel Good Dinner</div>
+                        <div class="playlist-des">An Uplifting yet tasteful dinner playlist with best songs.</div>
+                    </div>
+                    <div data-folder="cs" class="card">
+                        <img src="songImg.jpeg" alt="">
+                        <div class="playlist-name">Feel Good Dinner</div>
+                        <div class="playlist-des">An Uplifting yet tasteful dinner playlist with best songs.</div>
+                    </div> -->
+
+                </div>
+            </div>
+            <div class="right-lower">
+                <div class="music-control font flex">
+                    <div class="songName color"></div>
+                    <div class="controls flex">
+                        <img id="previous" class="invert" src="img/prev.svg" alt="" width="30px" height="30px">
+                        <img id="play" class="invert" src="img/play2.svg" alt="" width="30px" height="30px">
+                        <img id="next" class="invert" src="img/next.svg" alt="" width="30px" height="30px">
+                    </div>
+                    <!-- <div class="seekbar1"></div> -->
+                    <div class="seekbar">
+                        <div class="scroll"></div>
+                    </div>
+                    <div class="sound-time flex">
+                        <div class="duration color"></div>
+                        <div class="volume flex">
+                            <div class="volControl">
+                                <img class="volume-btn yesvol" src="img/volume.svg" alt="" width="25px" height="25px">
+                                <img class="volume-btn novol" src="img/noVolume.svg" alt="" width="23px" height="23px">
+                            </div>
+                            <input type="range" id="changevolume">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
