@@ -23,7 +23,7 @@ A feature-rich Spotify clone built using HTML, CSS, and JavaScript. This project
 
 ## Screenshot
 
-<img src="https://github.com/govindraj-7c/Projects/assets/126868326/1532e551-b514-4dac-ad39-c967af6b4750" alt="Screenshot" width="800"/>
+<img src="https://github.com/govindraj-7c/Projects/assets/126868326/1532e551-b514-4dac-ad39-c967af6b4750" alt="Screenshot" width="600"/>
 
 
 
