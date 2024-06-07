@@ -1,18 +1,23 @@
-**Spotify - Clone**
+# Spotify Clone 🎵
 
-**Tech Stack :-**
-- HTML
-- CSS
-- JAVASCRIPT
+A feature-rich Spotify clone built using HTML, CSS, and JavaScript. This project allows users to create and manage playlists, add new songs, and enjoy music with a responsive design suitable for all devices.
 
-**Features :-**
-  - This clone will help you to create the playlist of songs and user can add new songs according to their choice..
-  - User just need to create "info.json" file in the song's folder along with that should need to save the playlist's image
-  - After providing such files the clone will automatically detect the new songs and add it to the playlist.
-  - You can play/pause the music and also can adjust the audio of the music accordingly..
-  - This clone have media-queries which makes it robust for Tablets as well as Mobiles...
+## Tech Stack
 
-I have tried my best to look this clone as similar as original one.
+- **HTML**
+- **CSS**
+- **JavaScript**
+
+## Features
+
+- **Playlist Management**: Create custom playlists of your favorite songs.
+- **Add New Songs**: Easily add new songs by creating an `info.json` file in the song's folder. Ensure to include the playlist's image for visual representation.
+- **Automatic Detection**: The clone automatically detects new songs and adds them to the playlist without requiring a manual refresh.
+- **Music Controls**: Play, pause, and adjust the audio volume to your preference.
+- **Responsive Design**: The application is designed with media queries, making it robust and user-friendly on tablets and mobile devices.
+- **Interactive UI**: Enjoy a sleek and modern user interface that mimics the feel of Spotify.
+- **Song Information**: Display song details such as title, artist, and album cover.
+- **Progress Bar**: Visually track the progress of the song being played.
 
 
 
