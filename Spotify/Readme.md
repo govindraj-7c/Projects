@@ -21,7 +21,7 @@ A feature-rich Spotify clone built using HTML, CSS, and JavaScript. This project
 
 **Project Link** : https://clonespoti.freewebhostmost.com/
 
-<img src="![Screenshot (22)](https://github.com/govindraj-7c/Projects/assets/126868326/1532e551-b514-4dac-ad39-c967af6b4750)
+<img src="https://github.com/govindraj-7c/Projects/assets/126868326/1532e551-b514-4dac-ad39-c967af6b4750
 " alt="Homepage" width="300" />
 
 
