@@ -19,7 +19,7 @@ A feature-rich Spotify clone built using HTML, CSS, and JavaScript. This project
 - **Song Information**: Display song details such as title, artist, and album cover.
 - **Progress Bar**: Visually track the progress of the song being played.
 
-**Project Link** : https://clonespoti.freewebhostmost.com/
+**Project Link** : https://project-sclone.freewebhostmost.com/
 
 ## Screenshot
 
