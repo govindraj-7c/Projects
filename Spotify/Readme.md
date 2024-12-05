@@ -25,6 +25,13 @@ A feature-rich Spotify clone built using HTML, CSS, and JavaScript. This project
 
 <img src="https://github.com/govindraj-7c/Projects/assets/126868326/1532e551-b514-4dac-ad39-c967af6b4750" alt="Screenshot" width="600"/>
 
+## Live Video
+
+
+https://github.com/user-attachments/assets/4cd13009-60c6-42e4-a656-82684e637624
+
+
+
 
 
 
